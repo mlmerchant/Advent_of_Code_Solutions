@@ -10,7 +10,6 @@ while read; do
   fi
   last=$REPLY
 done < challenge.txt
-((count++))
 
 echo $count
 # 1722
