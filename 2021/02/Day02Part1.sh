@@ -1,3 +1,5 @@
+#!/bin/bash
+
 depth=0
 forward=0
 
