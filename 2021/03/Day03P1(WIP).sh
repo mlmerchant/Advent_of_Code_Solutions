@@ -30,13 +30,13 @@ for col in $(seq 12 -1 1); do
 done
 
 # get gammas in bin
-g=$(for i in $(seq 12); do
+g=$(for i in $(seq 12 -1 1); do
   echo -n ${gammas[$i]}
 done
 echo)
 
 # get epsils in bin
-e=$(for i in $(seq 12); do
+e=$(for i in $(seq 12 -1 1); do
   echo -n ${epsils[$i]}
 done
 echo)
@@ -47,4 +47,4 @@ e=$(../../Tools/bin2dec.sh $e)
 
 echo $((g * e))
 
-# 3528846 is too low
+# 4160394 is the answer
