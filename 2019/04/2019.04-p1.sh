@@ -21,3 +21,5 @@ for i in $(seq $low $high); do
 done
 
 echo $count
+
+# answer is 1330
