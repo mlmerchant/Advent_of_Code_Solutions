@@ -1056,4 +1056,5 @@ while read; do
     
 done < raw.txt
 
-echo $total
+echo "Answer might be: $total"
+echo "532 is too high, and 256 is too low."
