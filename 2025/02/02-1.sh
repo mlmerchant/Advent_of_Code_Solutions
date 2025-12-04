@@ -1,4 +1,4 @@
-sum=0
+#!/bin/bash
 
 while IFS=' ' read -r starting finishing; do
     seq $starting $finishing | grep -P '^(.+?)\1$'
