@@ -1,0 +1,3 @@
+# Beginnings of an idea...
+
+seq 1 2000 | grep -P '^(.+?)\1$'  #This matches any even string with a double pattern
