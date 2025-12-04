@@ -1,5 +1,8 @@
 #!/bin/bash
 
+needle=50
+zeros=0 
+
 while IFS= read -r line; do
   direction="${line:0:1}"
   turns=${line:1}
@@ -13,8 +16,7 @@ while IFS= read -r line; do
   fi
 done < puzzle_01.txt
 
-needle=50
-zeros=0 
+
 echo $zeros
 
 #Answer is 1054
